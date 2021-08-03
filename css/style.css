@@ -1,0 +1,93 @@
+.card-box {
+  margin: 14.7rem 0;
+  background-color: white;
+  width: 32.3rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.25); }
+  @media (min-width: 37.5em) {
+    .card-box {
+      width: 35rem;
+      height: auto; } }
+  .card-box .card__header img {
+    display: block; }
+  .card-box .img-holder {
+    margin-top: -5rem; }
+  .card-box .img {
+    border: 0.5rem solid white;
+    border-radius: 50%; }
+  .card-box .card__footer {
+    margin-top: 2.1rem;
+    border-top: 0.5px solid rgba(150, 150, 150, 0.3); }
+  .card-box .card__stat {
+    padding: 2.75rem; }
+  .card-box .card__stat ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 40vw bottom 40vh, left 40vw top 40vh; }
+  @media (min-width: 37.5em) {
+    body {
+      background-position: right 51vw bottom 40vh, left 49vw top 52vh; } }
+
+.main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative; }
+
+h1 {
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+  color: #2d3248;
+  opacity: 0.85; }
+  h1 span {
+    font-weight: 400;
+    color: #6a6f81; }
+
+h2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #2d3248;
+  opacity: 0.85; }
+
+.city {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #6a6f81; }
+
+li > p {
+  color: #969696;
+  margin-top: 0.6rem;
+  letter-spacing: 1.5px; }
+
+.attribution {
+  color: #2d3248;
+  font-size: 1.2rem;
+  text-align: center; }
+  @media (min-width: 37.5em) {
+    .attribution {
+      font-size: 1.4rem; } }
+  .attribution a {
+    color: white;
+    text-decoration: none; }

@@ -1,0 +1,32 @@
+h1 {
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+  color: $Very-dark-desaturated-blue;
+  opacity: 0.85;
+
+  span {
+    font-weight: 400;
+    color: $Dark-grayish-blue;
+  }
+}
+
+h2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: $Very-dark-desaturated-blue;
+  opacity: 0.85;
+}
+
+.city {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: $Dark-grayish-blue;
+}
+
+li > p {
+  color: $Dark-gray;
+  margin-top: 0.6rem;
+  letter-spacing: 1.5px;
+  // font-weight: 400;
+}

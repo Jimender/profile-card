@@ -1,0 +1,48 @@
+.card-box {
+  margin: 14.7rem 0;
+  background-color: white;
+  // height: 37.4rem;
+  width: 32.3rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2rem 5rem rgba(black, 0.25);
+
+  @include respond(mobile-m) {
+    width: 35rem;
+    height: auto;
+  }
+
+  .card__header {
+    img {
+      // width: 100%;
+      display: block;
+    }
+  }
+
+  .img-holder {
+    margin-top: -5rem;
+  }
+
+  .img {
+    border: 0.5rem solid white;
+    border-radius: 50%;
+  }
+
+  .card__footer {
+    margin-top: 2.1rem;
+    border-top: 0.5px solid rgba($Dark-gray, 0.3);
+  }
+
+  .card__stat {
+    padding: 2.75rem;
+  }
+
+  .card__stat ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+}
